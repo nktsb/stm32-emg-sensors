@@ -87,7 +87,14 @@ To build and flash STM32 project, open project in VSCode and open tasks menu wit
 
 **Tasks menu:**
 
-![Alt text](Demo/image.png)
+- `🛠 Build App` — Build the STM32 firmware.
+- `🗑 Clean all` — Remove build files and generated artifacts.
+- `📘 🔵 ST App erase + flash` — Build the firmware, erase flash, and program the board using ST-Link.
+- `🌀 🔵 ST Reset` — Reset the board using ST-Link.
+- `📕 🔴 JL App erase + flash` — Build the firmware, erase flash, and program the board using J-Link.
+- `🌀 🔴 JL Reset` — Reset the board using J-Link.
+- `🧻 🔵 ST App erase` — Erase flash memory using ST-Link.
+- `🧻 🔴 JL App erase` — Erase flash memory using J-Link.
 
 *JL - JLink*
 
@@ -95,7 +102,7 @@ To build and flash STM32 project, open project in VSCode and open tasks menu wit
 
 ## Major project
 
-This repository serves as a submodule of the larger project: [EMG Gesture Recognition](https://github.com/nktsb/EMG_gesture_recognition).
+This repository serves as a submodule of the larger project: [EMG Gesture Recognition](https://github.com/nktsb/EMG-gesture-recognition).
 
 
 
